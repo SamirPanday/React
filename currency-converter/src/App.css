@@ -1,0 +1,78 @@
+
+.header{
+  position: absolute;
+  top: 150px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0f766e;
+}
+
+/* App.css */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+
+.container {
+  background: #ffffff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.input-box:focus {
+  outline: none;
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}
+
+.currency-select {
+  width: 48%;
+  padding: 10px;
+  margin: 5px 1%;
+  border: 2px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: white;
+  transition: border-color 0.3s;
+}
+
+.currency-select:focus {
+  outline: none;
+  border-color: #0f766e;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}
+
+.option-select {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #065f46; /* darker teal for result */
+}
